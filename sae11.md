@@ -12,7 +12,7 @@
     <li>Pour commencer on a réalisé le MOOC de l’ANSSI sur la sécurité des système informatique (que j(ais personnellement fini après la présentation de la vidéo réaliser). Cela nous a permis (à mon groupe et moi) de choisir notre sujet de la vidéo&nbsp;:
         L’injection de code puis plus précisément l’injection de code en SQL.&nbsp;</li>
 </ul>
-<p style="text-align:center;"><img src="./image/atestation.PNG" alt="Attestation de suivi" width="300" class="img-fluid atto_image_button_text-bottom"><span style="font-size:1rem;">&nbsp;</span><br></p>
+<p style="text-align:center;"><img src="./Image/atestation.PNG" alt="Attestation de suivi" width="300" class="img-fluid atto_image_button_text-bottom"><span style="font-size:1rem;">&nbsp;</span><br></p>
 
 <p></p>
 <ul>
