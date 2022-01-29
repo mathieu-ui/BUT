@@ -33,23 +33,23 @@ Pour linux il est disponible avec la commande "man" :
 
 La commande :
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/man_ip.PNG" height="auto" width="250px"></img>
+<img src="./img/man_ip.PNG" height="auto" width="250px"></img>
 
 Le résultat :
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/man_ip2.PNG" height="auto" width="500px"></img>
+<img src="./img/man_ip2.PNG" height="auto" width="500px"></img>
 
 Pour Windows il est disponibla avec la commande "?" :
 
 La commande :
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/help_ipconf1.PNG" height="auto" width="500px"></img>
+<img src="./img/help_ipconf1.PNG" height="auto" width="500px"></img>
 
 Note, il existe une variante :
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/help_ipconf2_1.PNG" height="auto" width="500px"></img>
+<img src="./img/help_ipconf2_1.PNG" height="auto" width="500px"></img>
 
-> De plus les démonstrations de commandes sont effectuées sur machine virtuelle, si besoin voici comment en installer une : [Guide instalation de VM](https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/VM/machine_virtuelle.md)
+> De plus les démonstrations de commandes sont effectuées sur machine virtuelle, si besoin voici comment en installer une : [Guide instalation de VM](./VM/machine_virtuelle.md)
 
 ### Vérification du câblage
 
@@ -72,11 +72,11 @@ NB : le nom de la carte réseau est visible grâce à la commande :
         ip a 
 Cette commande nous liste les différentes cartes réseaux de la facon suivante (dans ce cas, c'est la numéro 2 qui nous intérresse) : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/2.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/2.PNG" height="auto" width="250px"></img>
 
 3. On obtiendra le résultat suivant :
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/1.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/1.PNG" height="auto" width="250px"></img>
 
 4. Ce qui nous intéresse c'est la dernière partie, si il y a marqué "link ok", cela veut dire que la connection est bonne, si non cela veut dire que l'on est pas connecté. Dans ce cas la, il faudra tester les câbles en remontant jusqu'au routeur pour trouver le câble défaillant.
 
@@ -88,7 +88,7 @@ Pour Windows la commande équivalente serait ipconfig :
 
 2. Quand on l'utilise il y a une ligne nommée statut du média qui nous permet de savoir si il est connecté ou pas : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/3.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/3.PNG" height="auto" width="250px"></img>
 
 3. La résolution du problème se fera comme dit précédemment.
 
@@ -106,7 +106,7 @@ Pour linux on utilise cette commande : "ip link show" :
 
 2. Ce qui nous donne comme résultat :
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/4.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/4.PNG" height="auto" width="250px"></img>
 
 3. Si derrière "statut" il y a marqué "UP" cela veut dire qu'elle est activée, si elle est marquée "DOWN" cela veut dire qu'elle est désactivée.
 4. Pour l'activer on utilise la commande suivante :
@@ -115,7 +115,7 @@ Pour linux on utilise cette commande : "ip link show" :
 
 5. Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/5.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/5.PNG" height="auto" width="250px"></img>
 
    <!-- ip link set down dev eno1 -> pour arrêter la carte réseau -->
    <!-- ip link set up dev eno1 -> pour démarrer la carte réseau -->
@@ -127,14 +127,14 @@ Pour Windows il existe une commande équivalente qui est Get-NetAdapter :
         Get-NetAdapter
 2. Resultat : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/6.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/6.PNG" height="auto" width="250px"></img>
 
 3. Si une carte est désactivée on peut la réactiver avec la commande suivante :
 
          netsh int set int name=[nom de la carte réseau] admin=enable
 4. Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/7.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/7.PNG" height="auto" width="250px"></img>
 
 <!-- Pour desactiver : netsh int set int name=[nom de la carte réseau]  admin=disable -->
 
@@ -152,7 +152,7 @@ Sur linux :
 
 2. Si il est déjà activé voici ce que retourne le terminal : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/8.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/8.PNG" height="auto" width="250px"></img>
 
 3. Maintenant pour ajouter manuellement l'ip on utilise la commande suivante :
 
@@ -160,7 +160,7 @@ Sur linux :
 
 4. Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/9.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/9.PNG" height="auto" width="250px"></img>
 
 NB : pour supprimer toutes les ip d'une carte on peut utiliser la commande :
 
@@ -168,7 +168,7 @@ NB : pour supprimer toutes les ip d'une carte on peut utiliser la commande :
 
 Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/10.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/10.PNG" height="auto" width="250px"></img>
 
 Pour Windows il existe des commandes équivalentes qui sont :
 
@@ -177,32 +177,32 @@ Pour Windows il existe des commandes équivalentes qui sont :
         netsh interface ip show address
 2. Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/11.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/11.PNG" height="auto" width="250px"></img>
 
 3. Pour l'activer on utilise la commande suivante :
 
          netsh interface ip set address [nom de la carte réseau] dhcp
 4. Si il est déjà activé voici ce que retourne powershell : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/12.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/12.PNG" height="auto" width="250px"></img>
 
 5. Maintenent pour ajouter manuellment l'ip, on utilise la commande suivante :
 
         netsh interface ip set address [nom de la carte réseau] static [IP de la machine] [Masque] [IP de la passerelle]
 6. Exemple :
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/13.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/13.PNG" height="auto" width="250px"></img>
 
 7. Résultat :
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/14.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/14.PNG" height="auto" width="250px"></img>
 
 NB : pour supprimer toutes les ip d'une carte on peut utiliser la commande :
 
         ipconfig /release
 Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/15.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/15.PNG" height="auto" width="250px"></img>
 
 <!-- * /realease pour enlever toutes les ip de la carte reseau /renew -->
 -----
@@ -216,7 +216,7 @@ Maintenant que l'on a rajouté les IP on doit rajouter les routes par défaut du
          ip route 
 2. Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/16.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/16.PNG" height="auto" width="250px"></img>
 
 3. Pour ajouter la route par défaut vers la passerelle, on utilise la commande suivante :
 
@@ -224,41 +224,41 @@ Maintenant que l'on a rajouté les IP on doit rajouter les routes par défaut du
 
 4. Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/17.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/17.PNG" height="auto" width="250px"></img>
 
 NB : pour supprimer une route il existe la commande :
 
         ip route delete [ip]/[masque]
 Exemple 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/18.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/18.PNG" height="auto" width="250px"></img>
 
 1. Pour vérifier les routes sur Windows, il existe la commande suivante :
 
         route printe 
 2. Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/19.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/19.PNG" height="auto" width="250px"></img>
 
 3. Pour ajouter la route par défaut vers la passerelle on utilise la commande suivante :
 
         route add 0.0.0.0 mask 0.0.0.0 [adresse ip de la passerelle] metric 3 if [numéro de la carte réseau(visible sur la comande precedante)]
 4. Exmeple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/20.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/20.PNG" height="auto" width="250px"></img>
 
 NB : pour supprimer une route il existe la commande :
                 route delete [0.0.0.0 pour la route par defaut ou l'IP de destination]
 
 Exemple : 
 
-<img src="https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/img/img_commandes/21.PNG" height="auto" width="250px"></img>
+<img src="./img_commandes/21.PNG" height="auto" width="250px"></img>
 
 -----
 
 ### Après tout ça il y a d'autres vérifications faisables
 
-> Il exeste beaucoup de commande possibles pour configurer un routeur, ici on va prendre l'exemple de la configuration du routeur RB750GR3 de chez mirotique.[(ici le document de configuration)](https://github.com/IUT-Beziers/sae12-mathieu-iut-beziers/blob/main/Routeur/conf_routeur.md)
+> Il exeste beaucoup de commande possibles pour configurer un routeur, ici on va prendre l'exemple de la configuration du routeur RB750GR3 de chez mirotique.[(ici le document de configuration)](./main/Routeur/conf_routeur.md)
 
 -----
 
