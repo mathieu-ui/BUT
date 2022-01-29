@@ -1,4 +1,4 @@
-# SAE 16 : Portefolio
+# SAE 16 : Portfolio
 
 Une section par UE ; chacune des section une section semestre un et semestre deux,
 Notée mais Coeff 0
