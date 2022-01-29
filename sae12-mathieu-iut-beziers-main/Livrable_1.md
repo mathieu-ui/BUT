@@ -258,7 +258,7 @@ Exemple :
 
 ### Après tout ça il y a d'autres vérifications faisables
 
-> Il exeste beaucoup de commande possibles pour configurer un routeur, ici on va prendre l'exemple de la configuration du routeur RB750GR3 de chez mirotique.[(ici le document de configuration)](./main/Routeur/conf_routeur.md)
+> Il exeste beaucoup de commande possibles pour configurer un routeur, ici on va prendre l'exemple de la configuration du routeur RB750GR3 de chez mirotique.[(ici le document de configuration)](./Routeur/conf_routeur.md)
 
 -----
 
