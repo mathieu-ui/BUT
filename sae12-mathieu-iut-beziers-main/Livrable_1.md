@@ -252,7 +252,7 @@ NB : pour supprimer une route il existe la commande :
 
 Exemple : 
 
-<img src="./img_commandes/21.PNG" height="auto" width="250px"></img>
+<img src="./img/img_commandes/21.PNG" height="auto" width="250px"></img>
 
 -----
 
