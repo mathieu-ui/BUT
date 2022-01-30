@@ -13,7 +13,7 @@
 
 -----
 
-## [Lien vers la SAE13](./SAÉ13_Découvrir_un_dispositif_de_transmission/README.ME)
+## [Lien vers la SAE13](./SAÉ13_Découvrir_un_dispositif_de_transmission/README.MD)
 
 -----
 
