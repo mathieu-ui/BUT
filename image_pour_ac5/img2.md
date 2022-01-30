@@ -1,3 +1,3 @@
 # Image
 
-![im1](./2.PNG "Image 2")
+![im1](./1.PNG "Image 2")
