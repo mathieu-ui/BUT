@@ -1,0 +1,835 @@
+#dn: dc=iutbeziers,dc=fr
+#dc: iutbeziers
+#objectClass: dcObject
+#objectClass: organization
+#objectClass: top
+#o: Mathrice
+#
+
+dn: ou=people,dc=iutbeziers,dc=fr
+ou: people
+objectClass: organizationalUnit
+objectClass: top
+
+
+dn: ou=groups,dc=iutbeziers,dc=fr
+ou: groups
+objectClass: organizationalUnit
+objectClass: top
+
+dn: uid=anomusu,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+cn: Agtpre.Nomusu
+sn: Agtnom
+givenName: Agtpre
+uid: anomusu
+uidNumber: 1001
+gidNumber: 300
+homeDirectory: /home/anomusu
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Agtpre.Nomusu@domain.tld
+mail: anomusu
+
+dn: uid=VATERRE,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Vac.Aterre
+sn: Aterre
+givenName: Vac
+uid: VATERRE
+uidNumber: 1002
+gidNumber: 300
+homeDirectory: /home/vaterre
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Vac.Aterre@domain.tld
+mail: VATERRE
+initials: V. A.
+
+dn: uid=ZBEBERT,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Zino.Bebert
+sn: Bebert
+givenName: Zino
+uid: ZBEBERT
+uidNumber: 1003
+gidNumber: 300
+homeDirectory: /home/zbebert
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Zino.Bebert@domain.tld
+mail: ZBEBERT
+initials: Z. B.
+
+dn: uid=JBOND,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: James.Bond
+sn: Bond
+givenName: James
+uid: JBOND
+uidNumber: 1004
+gidNumber: 300
+homeDirectory: /home/jbond
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: James.Bond@domain.tld
+mail: JBOND
+initials: J. B.
+
+dn: uid=CBOUKAN,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Cannotte.Boukan
+sn: Boukan
+givenName: Cannotte
+uid: CBOUKAN
+uidNumber: 1005
+gidNumber: 300
+homeDirectory: /home/cboukan
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Cannotte.Boukan@domain.tld
+mail: CBOUKAN
+initials: C. B.
+
+dn: uid=CCHANTEU,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Charme.Chanteur
+sn: Chanteur
+givenName: Charme
+uid: CCHANTEU
+uidNumber: 1006
+gidNumber: 300
+homeDirectory: /home/cchanteu
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Charme.Chanteur@domain.tld
+mail: CCHANTEU
+initials: C. C.
+
+dn: uid=DCIVET,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: D'anguilles.Civet
+sn: Civet
+givenName: D'anguilles
+uid: DCIVET
+uidNumber: 1007
+gidNumber: 300
+homeDirectory: /home/dcivet
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: D'anguilles.Civet@domain.tld
+initials: D. C.
+
+dn: uid=JDARQUE,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Jeanne.Darque
+sn: Darque
+givenName: Jeanne
+uid: JDARQUE
+uidNumber: 1008
+gidNumber: 300
+homeDirectory: /home/jdarque
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Jeanne.Darque@domain.tld
+mail: JDARQUE
+initials: J. D.
+
+dn: uid=JDINNE,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: James.Dinne
+sn: Dinne
+givenName: James
+uid: JDINNE
+uidNumber: 1009
+gidNumber: 300
+homeDirectory: /home/jdinne
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: James.Dinne@domain.tld
+mail: JDINNE
+initials: J. D.
+
+dn: uid=HDETOUR,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: Henriette.Detour
+sn: Dumans
+givenName: Henriette
+uid: HDETOUR
+uidNumber: 1010
+gidNumber: 300
+homeDirectory: /home/hdetour
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Henriette.Detour@domain.tld
+mail: HDETOUR
+initials: H. D.
+
+dn: uid=HDUMANS,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: Henriette.Dumans
+sn: Dumans
+givenName: Henriette
+uid: HDUMANS
+uidNumber: 1011
+gidNumber: 300
+homeDirectory: /home/hdumans
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Henriette.Dumans@domain.tld
+mail: HDUMANS
+initials: H. D.
+
+dn: uid=HDUPANNI,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: Hans.Dupannier
+sn: Dupannier
+givenName: Hans
+uid: HDUPANNI
+uidNumber: 1012
+gidNumber: 300
+homeDirectory: /home/hdupanni
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Hans.Dupannier@domain.tld
+mail: HDUPANNI
+initials: H. D.
+
+dn: uid=RDUPIN,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: Roi.Dupin
+sn: Dupin
+givenName: Roi
+uid: RDUPIN
+uidNumber: 1013
+gidNumber: 300
+homeDirectory: /home/rdupin
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Roi.Dupin@domain.tld
+mail: RDUPIN
+initials: R. D.
+
+dn: uid=CELPERE,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Cecile.Elpere
+sn: Elmaquille
+givenName: Cecile
+uid: CELPERE
+uidNumber: 1014
+gidNumber: 300
+homeDirectory: /home/celpere
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Cecile.Elpere@domain.tld
+mail: CELPERE
+initials: C. E.
+
+dn: uid=MENCBOU,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Monnaie.Encbourse
+sn: Enc­bourse
+givenName: Monnaie
+uid: MENCBOU
+uidNumber: 1015
+gidNumber: 300
+homeDirectory: /home/mencbou
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Monnaie.Encbourse@domain.tld
+mail: MENCBOU
+initials: M. E.
+
+dn: uid=OETY,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Olive.Ety
+sn: Ety
+givenName: Olive
+uid: OETY
+uidNumber: 1016
+gidNumber: 300
+homeDirectory: /home/oety
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Olive.Ety@domain.tld
+mail: OETY
+initials: O. E.
+
+dn: uid=AFONCTIO,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Arcive.Fonction
+sn: Fonction
+givenName: Arcive
+uid: AFONCTIO
+uidNumber: 1017
+gidNumber: 300
+homeDirectory: /home/afonctio
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Arcive.Fonction@domain.tld
+mail: AFONCTIO
+initials: A. F.
+
+dn: uid=EGAMELLE,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Etbidon.Gamelle
+sn: Gamelle
+givenName: Etbidon
+uid: EGAMELLE
+uidNumber: 1018
+gidNumber: 300
+homeDirectory: /home/egamelle
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Etbidon.Gamelle@domain.tld
+mail: EGAMELLE
+initials: E. G.
+
+dn: uid=MGUIDE,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Moy.Guide
+sn: Guide
+givenName: Moy
+uid: MGUIDE
+uidNumber: 1019
+gidNumber: 300
+homeDirectory: /home/mguide
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Moy.Guide@domain.tld
+mail: MGUIDE
+initials: M. G.
+
+dn: uid=PINUTILE,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Present.Inutile
+sn: Inutile
+givenName: Present
+uid: PINUTILE
+uidNumber: 1020
+gidNumber: 300
+homeDirectory: /home/pinutile
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Present.Inutile@domain.tld
+mail: PINUTILE
+initials: P. I.
+
+dn: uid=DJOLIVET,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Dominique.Jolivet
+sn: Jolivet
+givenName: Dominique
+uid: DJOLIVET
+uidNumber: 1021
+gidNumber: 300
+homeDirectory: /home/djolivet
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Dominique.Jolivet@domain.tld
+mail: DJOLIVET
+initials: D. J.
+
+dn: uid=LJULY,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Larousse.July
+sn: July
+givenName: Larousse
+uid: LJULY
+uidNumber: 1022
+gidNumber: 300
+homeDirectory: /home/ljuly
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Larousse.July@domain.tld
+mail: LJULY
+initials: L. J.
+
+dn: uid=RMANAPAN,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Roche.Manapany
+sn: Manapany
+givenName: Roche
+uid: RMANAPAN
+uidNumber: 1023
+gidNumber: 300
+homeDirectory: /home/rmanapan
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Roche.Manapany@domain.tld
+mail: RMANAPAN
+initials: R. M.
+
+dn: uid=TNOUNOU,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Tata.Nounou
+sn: Nounou
+givenName: Tatauid: TNOUNOU
+uidNumber: 1024
+gidNumber: 300
+homeDirectory: /home/tnounou
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Tata.Nounou@domain.tld
+mail: TNOUNOU
+initials: T. N.
+
+dn: uid=EMIEUT,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Eva.Mieut
+sn: Pabien
+givenName: Eva
+uid: EMIEUT
+uidNumber: 1025
+gidNumber: 300
+homeDirectory: /home/emieut
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Eva.Mieut@domain.tld
+mail: EMIEUT
+initials: E. M.
+
+dn: uid=APECHE,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Augros.Peche
+sn: Peche
+givenName: Augros
+uid: APECHE
+uidNumber: 1026
+gidNumber: 300
+homeDirectory: /home/apeche
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Augros.Peche@domain.tld
+mail: APECHE
+initials: A. P.
+
+dn: uid=GPLUMIER,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Gomme.Plumier
+sn: Plumier
+givenName: Gomme
+uid: GPLUMIER
+uidNumber: 1027
+gidNumber: 300
+homeDirectory: /home/gplumier
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Gomme.Plumier@domain.tld
+mail: GPLUMIER
+initials: G. P.
+
+dn: uid=RPRECIEU,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Ridicule.Precieuse
+sn: Precieuse
+givenName: Ridicule
+uid: RPRECIEU
+uidNumber: 1028
+gidNumber: 300
+homeDirectory: /home/rprecieu
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Ridicule.Precieuse@domain.tld
+mail: RPRECIEU
+initials: R. P.
+
+dn: uid=CQUALIF,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Contrat.Qualif
+sn: Qualif
+givenName: Contrat
+uid: CQUALIF
+uidNumber: 1029
+gidNumber: 300
+homeDirectory: /home/cqualif
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Contrat.Qualif@domain.tld
+mail: CQUALIF
+initials: C. Q.
+
+dn: uid=NLAVACHE,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Normande.Lavache
+sn: Quirit
+givenName: Normande
+uid: NLAVACHE
+uidNumber: 1030
+gidNumber: 300
+homeDirectory: /home/nlavache
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Normande.Lavache@domain.tld
+mail: NLAVACHE
+initials: N. L.
+
+dn: uid=CMEDAILL,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Capus.Medaille
+sn: Recompense
+givenName: Capus
+uid: CMEDAILL
+uidNumber: 1031
+gidNumber: 300
+homeDirectory: /home/cmedaill
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Capus.Medaille@domain.tld
+mail: CMEDAILL
+initials: C. M.
+
+dn: uid=PREVEREN,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Pere.Reverend
+sn: Reverend
+givenName: Pere
+uid: PREVEREN
+uidNumber: 1032
+gidNumber: 300
+homeDirectory: /home/preveren
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Pere.Reverend@domain.tld
+mail: PREVEREN
+initials: P. R.
+
+dn: uid=TPICADOR,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Torero.Picador
+sn: Spania
+givenName: Torero
+uid: TPICADOR
+uidNumber: 1033
+gidNumber: 300
+homeDirectory: /home/tpicador
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Torero.Picador@domain.tld
+mail: TPICADOR
+initials: T. P.
+
+dn: uid=STEMPORA,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Sandrine.Temporaire
+sn: Temporaire
+givenName: Sandrine
+uid: STEMPORA
+uidNumber: 1034
+gidNumber: 300
+homeDirectory: /home/stempora
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Sandrine.Temporaire@domain.tld
+mail: STEMPORA
+initials: S. T.
+
+dn: uid=PTEMPS,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Partiel.Temps
+sn: Temps
+givenName: Partiel
+uid: PTEMPS
+uidNumber: 1035
+gidNumber: 300
+homeDirectory: /home/ptemps
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Partiel.Temps@domain.tld
+mail: PTEMPS
+initials: P. T.
+
+dn: uid=ATERRIEU,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Alex.Terrieur
+sn: Terrieur
+givenName: Alex
+uid: ATERRIEU
+uidNumber: 1036
+gidNumber: 300
+homeDirectory: /home/aterrieu
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Alex.Terrieur@domain.tld
+mail: ATERRIEU
+initials: A. T.
+
+dn: uid=MTILLEUL,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Medor.Tilleul
+sn: Tilleul
+givenName: Medor
+uid: MTILLEUL
+uidNumber: 1037
+gidNumber: 300
+homeDirectory: /home/mtilleul
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Medor.Tilleul@domain.tld
+mail: MTILLEUL
+initials: M. T.
+
+dn: uid=DCOUDUR,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn:DroledeCoudur
+sn:Tronche
+givenName: Drolede
+uid: DCOUDUR
+uidNumber: 1038
+gidNumber: 300
+homeDirectory: /home/dcoudur
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Drolede.Coudur@domain.tld
+mail: DCOUDUR
+initials: D. C.
+
+dn: uid=MZETHOFR,ou=people,dc=iutbeziers,dc=fr
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Melanie.Zethofrais
+sn: Zethofrais
+givenName: Melanie
+uid: MZETHOFR
+uidNumber: 1039
+gidNumber: 300
+homeDirectory: /home/mzethofr
+loginShell: /bin/bash
+shadowExpire: 0
+userPassword:: e1NTSEF9ZE9ES2NRTkJNSERqYmRsWS9IaEVYVEV5Q1gzSXY2Kzc=
+mail: Melanie.Zethofrais@domain.tld
+mail: MZETHOFR
+initials: M. Z.
+
